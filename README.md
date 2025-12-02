@@ -120,12 +120,13 @@ Species (used only for evaluation):
 
 ## 📌 **Overall Comparison**
 
-|** Metric**                       | KMeans          | Agglomerative |
-|------------------------ -------- |-----------------|---------------|
-| **Silhouette Score**             | 0.4599          |     0.4467    |
-| **Adjusted Rand Index (ARI)**    | 0.6201          |     0.6153    |
-| **Cluster Balance**              | Good            | Less balanced |
-| **Performance Summary**          | Slightly better | Very similar but less balanced |
+| Metric | KMeans | Agglomerative |
+|--------|--------|----------------|
+| **Silhouette Score** | 0.4599 | 0.4467 |
+| **Adjusted Rand Index (ARI)** | 0.6201 | 0.6153 |
+| **Cluster Balance** | Good | Less balanced |
+| **Performance Summary** | Slightly better | Very similar but less balance
+
 
 ### **Conclusion**
 - **KMeans shows marginally better overall performance** on Iris.  
